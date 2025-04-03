@@ -1,0 +1,3 @@
+ transformando os atributos *protected* para *private*
+
+Agora os atributos são privados, e as subclasses não podem acessá-los diretamente.
