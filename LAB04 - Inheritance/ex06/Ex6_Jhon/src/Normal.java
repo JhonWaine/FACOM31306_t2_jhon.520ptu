@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+class Normal extends Ingresso {
+    public Normal(double valor) {
+        super(valor);
+    }
 
-public class Normal {
+    @Override
+    public void escreveValor() {
+        System.out.println("Ingresso Normal");
+    }
 }

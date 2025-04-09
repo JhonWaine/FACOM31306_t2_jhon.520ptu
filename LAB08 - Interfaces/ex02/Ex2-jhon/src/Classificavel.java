@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Classificavel {
+public interface Classificavel {
+    int compareTo(Classificavel obj);
 }

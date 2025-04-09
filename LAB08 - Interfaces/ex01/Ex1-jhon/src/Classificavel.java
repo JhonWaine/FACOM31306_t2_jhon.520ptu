@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Classificavel {
+public interface Classificavel {
+    boolean eMenorQue(Classificavel obj);
 }

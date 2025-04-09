@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class DivisaoPorZeroException {
+class DivisaoPorZeroException extends Exception {
+    public DivisaoPorZeroException(String mensagem) {
+        super(mensagem);
+    }
 }

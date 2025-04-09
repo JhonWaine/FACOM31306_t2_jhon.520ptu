@@ -1,0 +1,22 @@
+Auno: Jhon Waine Mendes Gonçalves 12021BCC028
+
+throw								throws
+Lança uma exceção explicitamente.				Declara que um método pode lançar exceções.
+Usado dentro do corpo do método.				Usado na assinatura do método.
+Pode lançar qualquer tipo de exceção (checked ou unchecked).	Sinaliza apenas exceções checked.
+Exemplo: throw new Exception();					Exemplo: void metodo() throws Exception { ... }
+
+
+Checked Exceptions						Unchecked Exceptions
+Verificadas em tempo de compilação.				Verificadas em tempo de execução.
+Obrigatório tratar (try-catch) ou declarar (throws).		Não é obrigatório tratar.
+Subclasses de Exception (exceto RuntimeException).		Subclasses de RuntimeException.
+Causas externas (arquivos, rede, etc.).				Erros de programação (lógica).
+Exemplo: IOException, SQLException.				Exemplo: NullPointerException, ArithmeticException.
+
+
+
+throw → Lança uma exceção manualmente.
+throws → Declara que um método pode lançar exceções (checked).
+Checked → Exigem tratamento explícito (compilador força).
+Unchecked → Não exigem tratamento (erros de lógica).

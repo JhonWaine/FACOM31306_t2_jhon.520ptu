@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class TetoSalarialExcecao {
+class TetoSalarialExcecao extends IllegalArgumentException {
+    public TetoSalarialExcecao(String mensagem) {
+        super(mensagem);
+    }
 }
